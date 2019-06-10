@@ -1,0 +1,144 @@
+/*--------------------------------------------Colors.css*/
+
+body {
+  background-color: #D8C999;
+}
+
+
+
+/*--------------------------------------------Colors.css*/
+
+#myTopnav {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+  background-color: #BF544A;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+
+
+.topnav a {
+  position: relative;
+  display: inline-block;
+  color: #F8F8FF;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  padding: 14px 24px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+  background-color: #D87761;
+  color: #F8F8FF;
+}
+
+/* Add an active class to highlight the current page */
+
+.topnav a.active {
+  background-color: #D87761;
+  color: #F8F8FF;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+
+.topnav .icon {
+  display: none;
+}
+
+
+
+
+.logo {
+  width: 25%;
+  height: auto;
+
+}
+
+#afrodytease-logo {
+  text-align: center;
+  padding-top: 115px;
+  color: #f8f8ff;
+
+}
+
+.afrodytease-title {
+  color: #f8f8ff;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 1.5px;
+}
+
+#soundcloud-player {
+  text-align: center;
+}
+
+#lab_social_icon_footer {
+  padding: 40px 0;
+  background-color: #D8C999;
+}
+
+#lab_social_icon_footer a {
+  color: #0C0C0C;
+  padding-left: 18px;
+}
+
+.footer {
+  padding: 10px;
+  position: relative;
+  clear: both;
+  font-size: 28px;
+  text-align: center;
+
+}
+
+@media screen and (max-width: 600px) {
+  #myTopnav {
+    text-align: left;
+  }
+  
+  #soundcloud-player {
+    text-align: center
+    width: 100%;
+  }
+  
+  .logo {
+    width: 35%;
+  }
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
